@@ -10,5 +10,5 @@ Useful to quickly tests webhooks
 git clone git@github.com:plopezlpz/serverlog.git
 cd serverlog
 make build
-./bin/serverlog
+./bin/serverlog -p 8080 -r '{"response": "ok"}'
 ```
