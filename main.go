@@ -18,7 +18,7 @@ func main() {
 	var port int
 	var responseJSON string
 	flag.IntVar(&port, "p", 8080, "Specify port")
-	flag.StringVar(&responseJSON, "-r", `{"data":"ok"}`, "Specify response JSON body")
+	flag.StringVar(&responseJSON, "r", `{"data":"ok"}`, "Specify response JSON body")
 	flag.Parse()
 
 	mux := http.NewServeMux()

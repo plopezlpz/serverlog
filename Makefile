@@ -1,2 +1,2 @@
 build:
-	go build -o bin/serverlogger  main.go
+	go build -o bin/serverlog  main.go
